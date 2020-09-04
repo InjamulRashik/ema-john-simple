@@ -27,7 +27,9 @@ const Product = (props) => {
         </p>{" "}
         <br />
         <button
-          className="add-button"
+          type="button"
+          className="btn btn-warning btn-rounded"
+          //className="add-button"
           onClick={() => {
             props.handleAddProduct(props.product);
           }}
